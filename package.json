@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
+    "deploy": "aws s3 sync dist/ s3://clickncheck",
     "build": "webpack --mode production",
     "test": "jest"
   },
@@ -39,7 +40,7 @@
     "path": "^0.12.7",
     "react-test-renderer": "^16.7.0",
     "terser-webpack-plugin": "^1.2.1",
-    "webpack": "^4.15.0",
+    "webpack": "^4.29.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.3"
   }
