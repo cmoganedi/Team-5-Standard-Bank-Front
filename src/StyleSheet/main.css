@@ -1,4 +1,4 @@
-.jumbotron {
+.padding-v-48 {
   padding-top: 48px;
   padding-bottom: 48px;
 }
@@ -8,7 +8,7 @@ body {
 }
 
 #app {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
   text-align: center;
   padding: 0;
   display: block;
@@ -63,7 +63,7 @@ h2 {
 
 .mainSector {
   margin-top: 0;
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
   height: 500px;
   text-align: center;
 }
@@ -88,7 +88,5 @@ h2 {
 }
 
 img {
-  /*-moz-transform-origin: right top; */
   height: 300px;
 }
-/*# sourceMappingURL=main.css.map */
