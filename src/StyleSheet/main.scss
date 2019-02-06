@@ -1,98 +1,98 @@
-$background : #DCDCDC;
+$background: #dcdcdc;
 $blue: red;
 $borderRadius: 5px;
 @mixin left() {
-    float: left;
+  float: left;
 }
-@mixin center(){
-    text-align:center;
+@mixin center() {
+  text-align: center;
 }
-.jumbotron{
-    padding-top: 48px;
-    padding-bottom: 48px;
+.padding-v-48 {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
-#app{
-    background-color:$background;
-     @include center();
-    padding: 0;
-    display: block;
-    margin: 0;
+#app {
+  background-color: $background;
+  @include center();
+  padding: 0;
+  display: block;
+  margin: 0;
 }
-label{
-    @include left();// float: left;;
+label {
+  @include left();
 }
-button{
-     @include left();
-    background-color: $blue;
-	border-radius:$borderRadius;
-	color: white;
-	font-family:Arial;
-	font-size:16px;
-    padding:10px 46px;
-    vertical-align: middle;
+button {
+  @include left();
+  background-color: $blue;
+  border-radius: $borderRadius;
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 46px;
+  vertical-align: middle;
 }
-a{
-    color:$blue;
-    font-family: helvetica;
-    text-decoration: none;
-    display: inline-block;
+a {
+  color: $blue;
+  font-family: helvetica;
+  text-decoration: none;
+  display: inline-block;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-.btn-link{
-    padding-top: 10px;
-    padding-right: 150px;
-    vertical-align: middle;
+.btn-link {
+  padding-top: 10px;
+  padding-right: 150px;
+  vertical-align: middle;
 }
-input{
-    width: 400px;
-    border: 1px solid $blue;
-	border-radius: $borderRadius;
-    height: 30px;
-    font-size:16px;
-    padding-left: 5px;
+input {
+  width: 400px;
+  border: 1px solid $blue;
+  border-radius: $borderRadius;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 5px;
 }
 h2 {
-    margin-top: 0;
-    font-size: 30px;
+  margin-top: 0;
+  font-size: 30px;
 }
-.mainSector{
-    margin-top: 0;
-    background-color: $background;
-    height: 500px;
-     @include center();
+.mainSector {
+  margin-top: 0;
+  background-color: $background;
+  height: 500px;
+  @include center();
 }
-.help-block{
-    color: red;
-    font-size: large;
+.help-block {
+  color: red;
+  font-size: large;
 }
-.form-group{
-    display:block;
-    width: 400px;
-    height: 50px;
-    margin: 0 auto;
-    font-size: 20px;
-    padding-bottom: 25px;
-    margin-bottom: 15px
+.form-group {
+  display: block;
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
 }
-.text-center{
-     @include center();
+.text-center {
+  @include center();
 }
-img{
-    //-webkit-transform: translateY(-100%) rotate(90deg); /* Safari */
-    //-moz-transform: translateY(100%) rotate(90deg); /* Firefox 3.6 Firefox 4 */
-    /*-moz-transform-origin: right top; */
-    //-ms-transform: translateY(-100%) rotate(90deg); /* IE9 */
-    //-o-transform: translateY(-100%) rotate(90deg); /* Opera */
-    //transform: translateY(-100%) rotate(90deg); /* W3C */  
-    //-webkit-transform-origin: left bottom;
-    //-moz-transform-origin: left bottom;
-    //-ms-transform-origin: left bottom;
-   // -o-transform-origin: left bottom;
-    //transform-origin: left bottom;
-    height:300px;
+img {
+  //-webkit-transform: translateY(-100%) rotate(90deg); /* Safari */
+  //-moz-transform: translateY(100%) rotate(90deg); /* Firefox 3.6 Firefox 4 */
+  /*-moz-transform-origin: right top; */
+  //-ms-transform: translateY(-100%) rotate(90deg); /* IE9 */
+  //-o-transform: translateY(-100%) rotate(90deg); /* Opera */
+  //transform: translateY(-100%) rotate(90deg); /* W3C */
+  //-webkit-transform-origin: left bottom;
+  //-moz-transform-origin: left bottom;
+  //-ms-transform-origin: left bottom;
+  // -o-transform-origin: left bottom;
+  //transform-origin: left bottom;
+  height: 300px;
 }
